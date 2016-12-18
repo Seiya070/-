@@ -40,10 +40,10 @@ IMG2 = imresize(IMG,2,'box'); % 画像の拡大
 ![原画像](https://github.com/Seiya070/Image_Process/blob/master/image/1-4.png?raw=true)  
 図4 1/8サンプリング
 
-![原画像]![原画像](https://github.com/Seiya070/Image_Process/blob/master/image/1-5.png?raw=true)  
+![原画像](https://github.com/Seiya070/Image_Process/blob/master/image/1-5.png?raw=true)  
 図5 1/16サンプリング
 
-![原画像]![原画像](https://github.com/Seiya070/Image_Process/blob/master/image/1-6.png?raw=true)  
+![原画像](https://github.com/Seiya070/Image_Process/blob/master/image/1-6.png?raw=true)  
 図6 1/32サンプリング
 
 このようにサンプリング幅が大きくなると，モザイク状のサンプリング歪みが発生する．
