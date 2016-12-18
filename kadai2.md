@@ -4,7 +4,7 @@
 画像から白黒画像を生成する。
 
 clear; % 変数のオールクリア  
-ORG=imread('Lenna.png'); % 原画像の入力  
+ORG=imread('view.png'); % 原画像の入力  
 ORG = rgb2gray(ORG); colormap(gray); colorbar;  
 imagesc(ORG); axis image; % 画像の表示  
 
@@ -37,7 +37,7 @@ IMG5 = ORG>192;
 IMG6 = ORG>224;  
 IMG = IMG0 + IMG1 + IMG2 + IMG3 + OMG4 + IMG5 + IMG6;  
 ![原画像](https://github.com/Seiya070/Image_Process/blob/master/image/2-4.png?raw=true)  
-図3 8階調
+図4 8階調
 
 以上のようにグレースケールの濃淡の表現を細かくすることで、
 2階調、4階調、8階調の順に画像が鮮明になる。
