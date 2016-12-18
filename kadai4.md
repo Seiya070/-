@@ -9,7 +9,7 @@ ORG= rgb2gray(ORG); % カラー画像を白黒濃淡画像へ変換
 
 imhist(ORG); % ヒストグラムの表示  
 ![原画像](https://github.com/Seiya070/Image_Process/blob/master/image/4-2.png?raw=true)  
-図2 白黒画像
+図2 ヒストグラム
 
 この画像のヒストグラムは元の画像に白い部分が多いため、
 輝度が高い部分が特に飛びぬけている。
